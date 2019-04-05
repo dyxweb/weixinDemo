@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    {{name}}{{age}}
+    <input type='text' bindinput='getAge'></input>
+    <view wx:for="{{friends}}" wx:key="{{key}}">{{item}}</view>
+  </view>
+  <!-- tab -->
+  <view class="tab">
+    <view data-id='2' bindtap='checkTab'>2</view>
+    <view data-id='3' bindtap='checkTab'>3</view>
+    <view data-id='4' bindtap='checkTab'>4</view>
+  </view>
+  <view>
+    <view wx:if="{{tabMonth == 2}}">2</view>
+    <view wx:if="{{tabMonth == 3}}">3</view>
+    <view wx:if="{{tabMonth == 4}}">4</view>
+  </view>
+  <view class="totop" bindtap="goTop">
+    返回顶部
+  </view>
+</view>

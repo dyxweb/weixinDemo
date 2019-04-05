@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/second/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "exercise",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+
+"list":[
+  {
+    "pagePath": "pages/index/index",
+    "text": "首页",
+    "iconPath": "img/a.png",
+    "selectedIconPath":"img/a.png" 
+  },
+  {
+    "pagePath": "pages/second/index",
+    "text": "第二页",
+    "iconPath": "img/b.png",
+    "selectedIconPath": "img/b.png"
+  }
+    ]
+  }
+}

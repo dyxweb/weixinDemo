@@ -1,0 +1,7 @@
+.totop{
+  margin-top: 1000px;
+}
+.tab {
+  display: flex;
+  justify-content: space-between;
+}
