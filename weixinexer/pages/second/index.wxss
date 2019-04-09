@@ -1,8 +1,0 @@
-.totop{
-  margin-top: 1000px;
-}
-.a{
-  margin-top: 100px;
-  color:red;
-  font-size:35px;
-}

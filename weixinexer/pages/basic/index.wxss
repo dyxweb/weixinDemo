@@ -1,5 +1,6 @@
-.totop{
-  margin-top: 1000px;
+.center {
+  display: flex;
+  justify-content: center;
 }
 .tab {
   display: flex;

@@ -1,9 +1,0 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="a">
-    豆亚星
-  </view>
-  <view class="totop" bindtap="goTop">
-    返回顶部
-  </view>
-</view>

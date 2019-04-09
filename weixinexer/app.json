@@ -1,7 +1,7 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/second/index"
+    "pages/basic/index",
+    "pages/exer/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -13,14 +13,14 @@
 
 "list":[
   {
-    "pagePath": "pages/index/index",
-    "text": "首页",
+    "pagePath": "pages/basic/index",
+    "text": "基础使用",
     "iconPath": "img/a.png",
     "selectedIconPath":"img/a.png" 
   },
   {
-    "pagePath": "pages/second/index",
-    "text": "第二页",
+    "pagePath": "pages/exer/index",
+    "text": "简单实例",
     "iconPath": "img/b.png",
     "selectedIconPath": "img/b.png"
   }

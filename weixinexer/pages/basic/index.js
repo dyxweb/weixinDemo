@@ -1,12 +1,9 @@
-//index.js
-//获取应用实例
-const app = getApp()
-
 Page({
   data: {
     name:"dyx",
     age:'',
-    friends:[1,2,3,4]
+    friends:[1,2,3,4],
+    tabMonth: 4,
   },
   //事件处理函数
     getAge: function (e) {
@@ -20,6 +17,5 @@ Page({
           scrollTop: 0,
         })
       }
-    }
-  
+    },
 })

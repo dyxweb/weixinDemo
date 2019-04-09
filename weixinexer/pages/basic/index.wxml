@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view>
+  <text class="center">简单的获取值</text>
+  <view class="userinfo">
+    {{name}}{{age}}
+    <input type='text' bindinput='getAge'></input>
+    <text class="center">数组循环渲染</text>
+    <view wx:for="{{friends}}" wx:key="{{key}}">{{item}}</view>
+  </view>
+</view>
